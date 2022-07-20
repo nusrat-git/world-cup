@@ -294,20 +294,14 @@ h4 {
     }
 
     .view {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 80%;
+        display: inline;
+        margin: 5% auto;
+        
 
     }
 
     .view a {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 187px;
-        height: 56px;
-        margin-top: 30px;
+        padding: 12px 20px;
         text-decoration: none;
         background-color: hsl(228, 95%, 24%);
 
