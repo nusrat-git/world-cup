@@ -114,6 +114,18 @@ h1 {
     margin: 2% 6%;
 
 }
+.list .active{
+    background-color: hsl(228, 95%, 24%);
+    color: #FFFFFF;
+}
+.list a:hover{
+    background-color: rgb(227, 241, 31);
+}
+
+.list a:active{
+    background-color: hsl(228, 95%, 24%);
+
+}
 
 .blogs {
     display: grid;
