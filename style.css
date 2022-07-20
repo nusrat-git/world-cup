@@ -142,9 +142,11 @@ h1 {
 
 .blog img {
     width: 100%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
-
+.pad{
+    padding: 15px;
+}
 h2 {
     font-family: 'Poppins';
     font-style: normal;
