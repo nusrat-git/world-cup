@@ -58,8 +58,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 161px;
-    height: 40px;
+    width: 180px;
+    height: 60px;
     margin-top: 30px;
     text-decoration: none;
     background-color: hsl(228, 95%, 24%);
@@ -167,6 +167,20 @@ h2 {
 
 .view {
     display: none;
+
+}
+
+.match{
+    text-align: center;
+    border: 1.14423px solid #E8E8E8;
+    border-radius: 11.4423px;
+    padding: 20px;
+}
+
+.country{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 
 }
 
