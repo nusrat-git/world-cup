@@ -250,28 +250,18 @@ h4 {
 
     .list {
 
-        width: 312px;
-        height: 312px;
-        background-color: #161616;
-        border-radius: 10px;
-        padding: 30px;
+        width: 95%;
+        height: 64px;
+        background-color: #FFFFFF;
         display: flex;
-        flex-direction: column;
-        row-gap: 30px;
-        justify-content: center;
+        flex-direction: row;
+        gap: 30px;
     }
 
     .list a {
-        text-decoration: none;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        color: #161616;
-        text-align: center;
         background-color: #FFFFFF;
-        border-radius: 10px;
-        padding: 20px;
+        border: 1px solid #E8E8E8;
+        width: 30%;
     }
 
     .grid {
@@ -296,7 +286,7 @@ h4 {
     .view {
         display: inline;
         margin: 5% auto;
-        
+
 
     }
 
