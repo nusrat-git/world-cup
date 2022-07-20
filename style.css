@@ -12,7 +12,7 @@ main {
 }
 
 
- 
+
 /* Section-1 */
 .top-banner {
     display: flex;
@@ -80,8 +80,8 @@ h1 {
 
 }
 
-a:hover{
-    transform: scale(1.2)  translateY(10px);
+a:hover {
+    transform: scale(1.2) translateY(10px);
     transition: transform 2 linear 2;
 }
 
@@ -127,12 +127,13 @@ a:hover{
     margin: 2% 6%;
 
 }
-.nav .active{
+
+.nav .active {
     background-color: hsl(228, 95%, 24%);
     color: #FFFFFF;
 }
 
-.nav a:active{
+.nav a:active {
     background-color: hsl(228, 95%, 24%);
 
 }
@@ -154,9 +155,11 @@ a:hover{
     width: 100%;
     /* margin-bottom: 5%; */
 }
-.blog-info{
+
+.blog-info {
     padding: 15px;
 }
+
 h2 {
     font-family: 'Poppins';
     font-style: normal;
@@ -194,14 +197,14 @@ h2 {
 
 }
 
-.match{
+.match {
     text-align: center;
     border: 1.14423px solid #E8E8E8;
     border-radius: 11.4423px;
     padding: 20px;
 }
 
-.match-info{
+.match-info {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -254,6 +257,11 @@ h4 {
     color: #FFFFFF;
     font-size: 2em;
 }
+
+
+
+/* Tablet Responsive CSS */
+
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
     .top-banner {
@@ -355,6 +363,10 @@ h4 {
 
 }
 
+
+/* Mobile Responsive CSS */
+
+
 @media screen and (max-width:767px) {
     .top-banner {
         flex-direction: column;
@@ -362,9 +374,10 @@ h4 {
         align-items: center;
         width: 90%;
         height: 547.5px;
-        margin: 18px ;
+        margin: 18px;
     }
-    .padding{
+
+    .padding {
         padding: 0;
     }
 
@@ -388,14 +401,16 @@ h4 {
         color: #FFFFFF;
 
     }
-    .top-info a{
+
+    .top-info a {
         margin-left: 40px;
     }
 
     .top-info {
         width: 80%;
     }
-    .top-info img{
+
+    .top-info img {
         margin-top: 20px;
     }
 
@@ -424,7 +439,7 @@ h4 {
 
     .blogs {
         display: grid;
-        grid-template-columns:repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         width: 100%;
     }
 
